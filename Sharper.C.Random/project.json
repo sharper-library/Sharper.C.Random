@@ -1,0 +1,23 @@
+{
+    "version": "1.0-*",
+    "description": "Random generation",
+    "authors": [
+        "Jeremy Hughes <jeremy@tflite.com>"
+    ],
+    "packOptions": {
+        "projectUrl": "https://github.com/sharper-library/Sharper.C.Random",
+        "licenseUrl": "https://raw.githubusercontent.com/sharper-library/Sharper.C.Random/master/LICENSE.txt"
+    },
+    "dependencies": {
+        "System.Collections.Immutable": "1.2.0-*",
+        "System.Security.Cryptography.Algorithms": "4.1.0-*",
+        "Sharper.C.IO": "1.0-*"
+    },
+    "frameworks": {
+        "netstandard1.3": {
+            "dependencies": {
+                "NETStandard.Library": "1.5.0-*"
+            }
+        }
+    }
+}
